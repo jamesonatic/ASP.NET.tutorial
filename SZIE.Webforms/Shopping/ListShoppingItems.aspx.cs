@@ -17,5 +17,16 @@ namespace WebApplication4.Shopping
             ddlSelectedDate3.DataBind();
 
         }
+
+        protected void ddlSelectedDate4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            GridView1.DataBind();
+        }
+
+
+        protected void ddlSelectedDate1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            GridView2.DataBind();
+        }
     }
 }
