@@ -1,0 +1,12 @@
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\obj\Debug\ShoppingDataAccess.csprojAssemblyReference.cache
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\obj\Debug\ShoppingDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\ShoppingDataAccess.dll.config
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\ShoppingDataAccess.dll
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\ShoppingDataAccess.pdb
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\obj\Debug\ShoppingDataAccess.csproj.CopyComplete
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\obj\Debug\ShoppingDataAccess.dll
+C:\Users\Milan\source\repos\ASP.NET.tutorial\ShoppingDataAccess\obj\Debug\ShoppingDataAccess.pdb
