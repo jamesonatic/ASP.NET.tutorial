@@ -1,4 +1,4 @@
-﻿using ShoppingDataAccessLayer.Models;
+﻿using ShoppingDataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

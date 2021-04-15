@@ -160,7 +160,8 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Shopping\AddShoppingOccation.aspx" />
+    <Content Include="Shopping\AddShoppingItem.aspx" />
+    <Content Include="Shopping\AddShoppingOccasion.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -202,12 +203,19 @@
       <DependentUpon>Palindrom.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shopping\AddShoppingOccation.aspx.cs">
-      <DependentUpon>AddShoppingOccation.aspx</DependentUpon>
+    <Compile Include="Shopping\AddShoppingItem.aspx.cs">
+      <DependentUpon>AddShoppingItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Shopping\AddShoppingOccation.aspx.designer.cs">
-      <DependentUpon>AddShoppingOccation.aspx</DependentUpon>
+    <Compile Include="Shopping\AddShoppingItem.aspx.designer.cs">
+      <DependentUpon>AddShoppingItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shopping\AddShoppingOccasion.aspx.cs">
+      <DependentUpon>AddShoppingOccasion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shopping\AddShoppingOccasion.aspx.designer.cs">
+      <DependentUpon>AddShoppingOccasion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
