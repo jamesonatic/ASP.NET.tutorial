@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Models\ShoppingContext.cs" />
+    <Compile Include="Models\ShoppingInitializer.cs" />
     <Compile Include="Models\ShoppingItem.cs" />
     <Compile Include="Models\ShoppingOccasion.cs" />
     <Compile Include="Models\ShoppingPlace.cs" />

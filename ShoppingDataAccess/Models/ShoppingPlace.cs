@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoppingDataAccessLayer.Models
+namespace ShoppingDataAccess.Models
 {
     public class ShoppingPlace
     {

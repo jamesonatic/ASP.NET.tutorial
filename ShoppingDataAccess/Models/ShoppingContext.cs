@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShoppingDataAccessLayer.Models
+namespace ShoppingDataAccess.Models
 {
     public class ShoppingContext : DbContext
     {
         public ShoppingContext() : base("name=MyConnString")
         {
-            Database.SetInitializer<ShoppingContext>(new CreateDatabaseIfNotExists<ShoppingContext>());
+            Database.SetInitializer<ShoppingContext>(new ShoppingInitializer());
         }
         public virtual DbSet<ShoppingOccasion> ShoppingOccasions { get; set; }
         public virtual DbSet<ShoppingItem>  ShoppingItems { get; set; }
