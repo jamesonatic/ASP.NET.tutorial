@@ -55,6 +55,7 @@
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/HelloWorld">HelloWorld</a></li>
                         <li><a runat="server" href="~/Palindrom">Palindrom</a></li>
+                        <li><a runat="server" href="~/Shopping/AddShoppingOccasion">Shopping | New occasion</a></li>
                     </ul>
                 </div>
             </div>
