@@ -162,6 +162,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Shopping\AddShoppingItem.aspx" />
     <Content Include="Shopping\AddShoppingOccasion.aspx" />
+    <Content Include="Shopping\ListShoppingItems.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -169,6 +170,7 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\ShoppingQueries.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -216,6 +218,13 @@
     </Compile>
     <Compile Include="Shopping\AddShoppingOccasion.aspx.designer.cs">
       <DependentUpon>AddShoppingOccasion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shopping\ListShoppingItems.aspx.cs">
+      <DependentUpon>ListShoppingItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shopping\ListShoppingItems.aspx.designer.cs">
+      <DependentUpon>ListShoppingItems.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
