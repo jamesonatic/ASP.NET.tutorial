@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                1. oszlop
+            </th>
+            <th>
+                2. oszlop
+            </th>
+            <th>
+                3. oszlop
+            </th>
+            <th>
+                4. oszlop
+            </th>
+        </tr>
+    </thead>
+    <tr>
+        <td>@ViewBag.StudentName</td>
+        <td>@ViewBag.StudentAge</td>
+        <td>@ViewBag.StudentGradDate</td>
+        <td>d</td>
+    </tr>
+
+    @{ for (int i = 1; i < 5; i++)
+        {
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+        }
+    }
+</table>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
